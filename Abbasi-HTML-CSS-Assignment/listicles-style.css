@@ -1,0 +1,131 @@
+/*
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+
+font-family: 'Roboto Slab', serif; 
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: top;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+}
+
+img {
+    border: #FFF 1px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #FFF;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 200px;
+    padding: auto;
+  /*  max-width: 780px; */
+}
+
+.profile {
+    position: absolute;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    text-align: center;
+    z-index: 1; 
+    top: 450px;
+    left: 0;
+    right: 0;
+}
+
+#me-img {
+    border-radius: 100%;
+}
+
+.profile strong {
+    font-weight: bold;
+}
+
+.profile em {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    width: 170px;
+    margin: auto;
+    margin-top: 10px;
+    color: #e6e6e6; 
+}
+
+.blog-header{
+    margin: auto;
+}
+
+.blog-container {
+    margin: auto;
+    width: 66.67%;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif; 
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.title-number {
+    position: absolute;
+    color:  rgba(0, 0, 0, 0.25);
+    border-right: 40px;
+    left: 13.33%;
+}
+
+.title-name {
+    color:  rgb(51, 51, 51);  
+    width: 66.67%;
+}
+
+a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+a :hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blog-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+
+    margin-top: 20px;
+}
+
+#rec {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.blog-container img{
+    width: 100%;
+    margin-top: 20px;
+}
+
